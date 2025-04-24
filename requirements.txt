@@ -1,0 +1,8 @@
+streamlit
+requests
+beautifulsoup4
+pandas
+lxml
+openpyxl
+
+Add requirements.txt for Streamlit app
