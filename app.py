@@ -70,9 +70,9 @@ if run_button and doi_input.strip():
 
                    # 儲存資料
                    all_records.append({
-                       "Order": idx,
                        "Title": title,
                        "Name": name,
+                       "Order": idx,
                        "Affiliation": affiliation,
                        "DOI": doi
                    })
