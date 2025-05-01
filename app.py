@@ -13,7 +13,7 @@ st.set_page_config(page_title="PLUS_ONE", layout="wide")
 st.title("📚 PLOS ONE 期刊作者與機構擷取工具")
 
 # ✅ 一定放在這裡才會一打開就顯示
-st.info(f"🔧 測試版本 v1.11 ‧ 載入時間：{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+st.info(f"🔧 測試版本 ‧ 載入時間：{datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 doi_input = st.text_area("請輸入 DOI（每行一筆，限PLOS ONE）")
 run_button = st.button("🚀 開始擷取")
 
